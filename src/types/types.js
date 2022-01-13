@@ -1,0 +1,4 @@
+export const types = {
+    TOGGLE_DARKMODE: 'TOGGLE_DARKMODE',
+    TOGGLE_SIDEBAR: 'TOGGLE_SIDEBAR',
+}
