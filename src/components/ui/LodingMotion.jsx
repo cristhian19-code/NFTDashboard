@@ -31,13 +31,13 @@ export const LoadingMotion = () => {
             variants={sentence}
             initial="hidden"
             animate="visible"
-            className="absolute grid grid-cols-3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-purple-600"
+            className="absolute grid grid-cols-3 gap-1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-purple-600"
         >
             {
                 text.split("").map((el, index) => {
                     return (
                         <motion.span 
-                            className="absolute text-9xl mr-2 font-bold"
+                            className="font-mono text-7xl md:text-8xl lg:text-9xl font-bold text-center"
                             key={index}
                             variants={letter}
                         >
